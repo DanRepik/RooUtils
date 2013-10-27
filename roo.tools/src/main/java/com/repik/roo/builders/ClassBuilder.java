@@ -105,10 +105,10 @@ public class ClassBuilder extends IndentifableAssetBuilder<ClassOrInterfaceTypeD
 		builder.add(new ImportMetadataBuilder( ))
 		return this ;
 	}
+	*/
 
 	public ClassBuilder annotation(AnnotationBuilder annotationBuilder) {
 		addAnnotation(annotationBuilder);
 		return this;
 	}
-	*/
 }
